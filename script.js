@@ -12,8 +12,8 @@ var takeStr = document.getElementById("inpPal").value.toLowerCase();
 var b = takeStr.split("");
 var c = takeStr.split("").reverse();
 if(b.join() === c.join()){
-    document.getElementById("palindrome").innerHTML = "Ans2" + " " +"It is palindrome";
-}else{document.getElementById("palindrome").innerHTML = "Ans2" + " " +"It is not palindrome";}}
+    document.getElementById("palindrome").innerHTML = "It is palindrome";
+}else{document.getElementById("palindrome").innerHTML = "It is not palindrome";}}
 
 // 3. function of Combination
 function combination() {
