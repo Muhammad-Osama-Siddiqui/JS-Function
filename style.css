@@ -1,0 +1,33 @@
+body{
+  margin:0;
+        padding:0; background :linear-gradient(90deg,#FF8F00,#E91E63);
+    }
+    table{color: white;}
+  input{background :linear-gradient(90deg, #4DB6AC,#4DD0E1);
+    width: 100%;
+    font-family: 'Girassol', cursive;
+    height: 30px;
+    border: 1px solid;
+    align: center;
+    margin-left:15px;
+    text-align:center;
+   font-size: 17px;}
+    button{
+        width:70%;
+        color:white;
+   height: 50px;
+   border-radius: 10px; background:linear-gradient(40deg,#8C9EFF ,#7E57C2) ;
+   margin-left: ;
+    }
+   .output{
+       height: 50px;
+       border: 1px solid black;
+       border-radius:10px;
+       text-align:center;
+       font-size: 20px;
+       color:black;
+ background :linear-gradient(45deg,#76FF03,#FFD600);
+  font-family: 'Girassol', cursive; }
+table{
+    width: 400px;
+}
