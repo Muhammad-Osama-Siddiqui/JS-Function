@@ -3,7 +3,7 @@ function revNum(){
 num = document.getElementById("inpRev").value;
 var str2arr = num.split("").reverse();
 var arr2str = str2arr.join().replace(/,/g, "");
-document.getElementById("reverse").innerHTML = num+ " " + "Reverse" + " "+ Number(arr2str);
+document.getElementById("reverse").innerHTML = Number(arr2str);
 }
 
 // 2. Function of palindrome
@@ -83,14 +83,11 @@ if(num % i === 1) {
 else if(num % i === 0 && num > 2){
 document.getElementById("prime").innerHTML = "It is not prime number";
 break;} } }}
-// 10. function check min and max 2nd number
+// 10. function check 2nd min and max number
 function m(){     
-   function a() {var arr = [1,2,3,4,5];
-    document.getElementById("inpm").innerHTML = arr;
-    var max = Math.max.apply(arr); 
-   max= arr.splice(arr.indexOf(max), 1);    
-   document.getElementById("maxmin").innerHTML = Math.max.apply(null, arr) + Math.min.apply(null, arr); }
-   function b(){var min = Math.min.apply(arr);
-  min = arr.splice(arr.indexOf(min), 1);
-  document.getElementById("maxmin").innerHTML = Math.min.apply(null, arr);}
+   function a() {
+    var inp = document.getElementById("inpm").value;
+   var convArr = inp.split("");
+   var n = convArr.sort();
+   document.getElementById("maxmin").innerHTML = inp + "<br>" + " " + n.slice(1, 2) + " " + "<br>" + "2nd greatest Number:" + " " + n.reverse().slice(1,2);
 }
