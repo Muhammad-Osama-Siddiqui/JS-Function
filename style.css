@@ -13,11 +13,10 @@ body{
     text-align:center;
    font-size: 17px;}
     button{
-        width:70%;
+        width:75%;
         color:white;
    height: 50px;
    border-radius: 10px; background:linear-gradient(40deg,#8C9EFF ,#7E57C2) ;
-   margin-left: ;
     }
    .output{
        height: 50px;
